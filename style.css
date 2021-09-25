@@ -1,0 +1,60 @@
+:root {
+     --primery-green-blue: #064E3B;
+     --secondery-green: #34D399;
+}
+
+body {
+     background-color: var(--primery-green-blue);
+     color: var(--secondery-green);
+     padding: 1rem;
+}
+
+h1 {
+     text-align: center;
+}
+
+.container {
+     width: 50%;
+     margin: auto;
+}
+
+input,
+label {
+     display: block;
+}
+
+input {
+     margin-bottom:0.5rem ;
+     width: 100%;
+}
+
+#date-of-birth {
+     background-color: var(--secondery-green);
+     color: var(--primery-green-blue);
+     text-align: end;
+     font-size: larger;
+}
+
+#lucky-number {
+     background-color: var(--secondery-green);
+     color: var(--primery-green-blue);
+     text-align: end;
+     font-size: large;
+}
+
+#check-button {
+     margin-top:1rem ;
+     margin: auto;
+     display: block;
+     background: transparent;
+     color: var(--secondery-green);
+     border-color: var(--primery-green-blue);
+     border-width: medium;
+     padding: 0.6rem;
+     border-radius: 3px;
+     box-shadow: none;
+}
+
+#output-box {
+     font-size: larger;
+}
